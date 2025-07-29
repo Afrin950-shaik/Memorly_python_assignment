@@ -69,10 +69,10 @@ memorly-python-assignment/
 ##  How to Run This App
 
 ### Step 1: Install Flask
-pip install flask
+<code><pre>pip install flask</code></pre>
 
 ### Step 2: Run the App
-python app.py
+<code><pre>python app.py</code></pre>
 
 ### Step 3: Open in Browser
 http://127.0.0.1:5000
