@@ -78,8 +78,10 @@ python app.py
 http://127.0.0.1:5000
 
 ### Step 4: Use the Login Page
+<code><pre>
 Username: admin
 Password: 1234
+</code></pre>
 
 
 ## Notes
