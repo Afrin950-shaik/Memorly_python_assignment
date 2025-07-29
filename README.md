@@ -47,23 +47,23 @@ It is a dummy web application built using Python and Flask to simulate listing r
 
 
 
-##  Folder Structure
+##  Project Structure
 
-memorly-python-assignment/ 
- ├── app.py 
- ├── logic.py 
- ├── phones_data.py 
- ├── requirements.txt 
- ├── README.md 
- ├── templates/   
-  ├── login.html    
-  └── dashboard.html 
- ├── static/  
-  └── style.css 
- 
+<pre><code>
 
+memorly-python-assignment/
+├── app.py
+├── logic.py
+├── phones_data.py
+├── requirements.txt
+├── README.md
+├── templates/
+│   ├── login.html
+│   └── dashboard.html
+├── static/
+│   └── style.css
 
-
+</code></pre>
 
 
 ##  How to Run This App
@@ -90,11 +90,17 @@ Code is modular and readable
 
 Focused on condition mapping, pricing logic, and platform-specific rules
 
-## Developed By
 
-Afrin Shaik
-Python Developer Candidate | Memorly.AI
-Email: shaikafrin676@gmail.com
+
+##  Developed By
+
+*Afrin Shaik*  
+Python Developer Candidate | Memorly.AI  
+Email: shaikafrin676@gmail.com  
 GitHub: https://github.com/Afrin950-shaik
+
+
+
+
 
 
