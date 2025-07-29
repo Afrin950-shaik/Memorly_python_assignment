@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard - Phone Listings</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h2> Refurbished Phones Listing</h2>
+
+        {% for phone in phones %}
+            <h3>{{ phone.model }} ({{ phone.condition }}) - ₹{{ phone.base_price }}</h3>
+            <ul>
+                {% for p in phone.platforms %}
+                    <li class="{{ 'listed' if p.status == 'Listed' else 'not-listed' }}">
+                        Platform {{ p.platform }} - ₹{{ p.final_price }} - {{ p.mapped_condition }} -
+                        <strong>{{ p.status }}</strong>
+                    </li>
+                {% endfor %}
+            </ul>
+            <hr>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
